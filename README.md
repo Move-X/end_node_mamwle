@@ -8,7 +8,7 @@ The example is set for sending a 1-byte payload on port 2 every 10 seconds. The 
 
 All the settings can be found within the .ioc file. LoRaWAN configuration can be customized from within STM32CubeMX software using the parameters located in _"Pinout & Configuration"_ tab / _"Middleware"_ category / LORAWAN.
 
-It is possible for the user to edit the STM32CubeMX project settings and regenerate the source code: the customization is done in a way that makes them unaffected by code regeneration. 
+It is possible for the user to edit the STM32CubeMX project settings and regenerate the source code: the customization is done in a way that makes them unaffected by code regeneration. The default LoRaWAN keys are not set, the user has to configure them as required by the network in use.
 
 ## How to generate the project from scratch
 
